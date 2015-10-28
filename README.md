@@ -48,6 +48,8 @@ DEBUG: org.learn.log.aspect.LoggingHandler - Method org.learn.log.BookingControl
 DEBUG: org.learn.log.aspect.LoggingHandler - Method Return value : hotel
 
 
+
+
 Post request
 http://localhost:9095/log/hotel/book
 
@@ -74,8 +76,9 @@ DEBUG: org.learn.log.aspect.LoggingHandler - Method org.learn.log.BookingControl
 DEBUG: org.learn.log.aspect.LoggingHandler - Method Return value : customerDetails
 
 
-GET Request
 
+
+GET Request
 http://localhost:9095/log/hotel/book?id=1
 
 Logs are :
@@ -84,7 +87,7 @@ DEBUG: org.learn.log.aspect.LoggingHandler - Entering in Method :  bookHotel
 DEBUG: org.learn.log.aspect.LoggingHandler - Class Name :  org.learn.log.BookingController
 DEBUG: org.learn.log.aspect.LoggingHandler - Arguments :  [1, {}, org.apache.catalina.connector.RequestFacade@777d0dd6]
 DEBUG: org.learn.log.aspect.LoggingHandler - Target class : org.learn.log.BookingController
-DEBUG: org.learn.log.aspect.LoggingHandler - Start Header Section of request 
+DEBUG: org.learn.log.aspect.LoggingHandler - Start Header Section of request
 DEBUG: org.learn.log.aspect.LoggingHandler - Method Type : GET
 DEBUG: org.learn.log.aspect.LoggingHandler - Header Name: accept Header Value : image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, */*
 DEBUG: org.learn.log.aspect.LoggingHandler - Header Name: accept-language Header Value : en-US
